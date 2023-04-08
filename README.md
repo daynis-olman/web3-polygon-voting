@@ -25,4 +25,7 @@ Then, start the application by running:
 `npm start`
 
 ## Contributing
-Contributions to this project are welcome! If you would like to contribute, please fork the repository and create a pull request.
+Contributions to this project are welcome from the Election Project members.
+Currently we are not accepting contributions from non-project members
+
+If you would like to contribute, please fork the repository and create a pull request.

@@ -4,12 +4,6 @@ This is a web3-based voting application that operates using smart contracts crea
 
 ## Fist look at the application
 ![Alt Text](./src/images/app-demo-gif.gif)
-- Webapp starts with a login screen
-- User is prompted to create account or login 
-- Login is handled with MagicLink sent to email
-- Non-custodial voting wallet is provision for all new accounts
-- Login action will trigger a 6 digit access code emailed to user
-- Correct code entry will allow the user to access their voting wallet
 
 ## Voting on the blockchain
 Transparent election voting processes are critical to ensuring fair and trustworthy election outcomes. With the rise of blockchain technology, we now have an exciting opportunity to revolutionize the way we conduct elections, by providing a transparent and secure platform for casting and counting votes.
@@ -25,7 +19,12 @@ In conclusion, transparent election voting processes, such as blockchain voting,
 
 ## Utility 
 Users register and receive their votes via SmartContract on Polygon blockchain. Users will be able to use passwordless Web3 & Web2 onboarding and authentication using email only authentication (magic link with magic.js). The app will allows users to gain access to a secure, non-custodial voting 'wallet' where they will be able to anonymously cast their votes. Election results are traceable on the blockchain to allow for complete transparency of the election process. Blockchain will allow for traceability of total number of casted votes, total number of people voted - however a complete anonymity will be preserved when voting whilst strict access control will ensure that only users with access to their email addresses will gain access to the non-custodial voting wallets.  
-
+- Webapp starts with a login screen
+- User is prompted to create account or login
+- Login is handled with MagicLink sent to email
+- Non-custodial voting wallet is provision for all new accounts
+- Login action will trigger a 6 digit access code emailed to user
+- Correct code entry will allow the user to access their voting wallet
 ## Features
 - Web3 and Web2 passwordless onboarding and authentication using email only authentication (magic link approach)
 - Secure, non-custodial voting "wallet" where users can anonymously cast their votes
